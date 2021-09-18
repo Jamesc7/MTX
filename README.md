@@ -1,6 +1,6 @@
-# MTX Video Project #628 - VR - Professor Bongsup Cho
+# Methotrexate VR Project - Dr. Roy Bergstrom (University of Rhode Island), Dr. Bongsup Cho (University of Rhode Island)
 
-VR - Methotrexate (MTX) is a small organic molecule to treat cancer (breast,
+Methotrexate (MTX) is a small organic molecule to treat cancer (breast,
 leukemia, lymphoma) and autoimmune diseases (psoriasis, rheumatoid arthritis,
 and Crohn’s diseases). MTX’s anticancer action is due to its inhibitory activity against the enzyme dihydrofolate reductase (DHFR). Inhibition of DHFR leads to partial depletion of the coenzyme tetrahydrofolic acid (THFA) required for the synthesis of Thymine, a crucial building block of DNA. MTX binds to DHFR 1,000 times more tightly than folate, blocking the action of DHFR.
 
@@ -11,4 +11,4 @@ using Chimera X software and creation of the corresponding VR files.
 The students will learn the importance of active site binding and geometry for
 enzyme efficiency, drug action, and drug resistance. 
 
-Contributions: James Chen, Alex Huang, Julius Chen
+Contributers: James Chen, Alex Huang, Julius Chen
