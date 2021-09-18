@@ -9228,7 +9228,7 @@ Prefab:
     - target: {fileID: 114218199226454004, guid: cb1da71a3c3eb6644a5394cb01964ae6,
         type: 2}
       propertyPath: dialogue.sentences.Array.data[3]
-      value: 'Press the trackpad to move to the next scene. '
+      value: Squeeze the right palm grip to move to the next scene.
       objectReference: {fileID: 0}
     - target: {fileID: 114218199226454004, guid: cb1da71a3c3eb6644a5394cb01964ae6,
         type: 2}

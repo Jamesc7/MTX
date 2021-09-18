@@ -14,7 +14,7 @@ public class ExitCredit : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         timer += Time.deltaTime;
-        Debug.Log(timer);
+        //Debug.Log(timer);
         if (timer >= 10)
         {
             SceneManager.LoadScene("(1) Folate And MTX Animation", LoadSceneMode.Single);

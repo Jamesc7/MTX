@@ -8,7 +8,8 @@ namespace Valve.VR.InteractionSystem.Sample
 
     public class TargetHitEffect : MonoBehaviour
     {
-        public Collider targetCollider;
+        //region of object in game
+        public Collider targetCollider; 
 
         public Collider targetCollider2;
 
@@ -17,13 +18,13 @@ namespace Valve.VR.InteractionSystem.Sample
         public Collider targetCollider4;
 
         
-
+        //object in game
         public GameObject appearingMolecule;
 
         public GameObject appearingMolecule2;
 
 
-
+        //maybe idk
         public bool test = true;
 
         public bool colorSpawnedObject = true;

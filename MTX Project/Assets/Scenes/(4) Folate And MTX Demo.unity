@@ -11426,8 +11426,8 @@ Prefab:
     - target: {fileID: 114218199226454004, guid: cb1da71a3c3eb6644a5394cb01964ae6,
         type: 2}
       propertyPath: dialogue.sentences.Array.data[2]
-      value: You have reached the end! The trackpad can be used to return to the first
-        scene.
+      value: You have reached the end! The right palm grip can be used to return to
+        the first scene.
       objectReference: {fileID: 0}
     - target: {fileID: 114218199226454004, guid: cb1da71a3c3eb6644a5394cb01964ae6,
         type: 2}
@@ -17781,7 +17781,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4270038928706042, guid: bbe0043982e95b64e830f931d7bc8e11, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -1.1854881
+      value: -1.147
       objectReference: {fileID: 0}
     - target: {fileID: 4270038928706042, guid: bbe0043982e95b64e830f931d7bc8e11, type: 2}
       propertyPath: m_LocalRotation.x

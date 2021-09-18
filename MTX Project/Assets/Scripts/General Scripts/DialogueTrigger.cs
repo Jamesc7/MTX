@@ -65,7 +65,8 @@ public class DialogueTrigger : MonoBehaviour
             FindObjectOfType<DisplayText>().Display(sentences[number - 1]);
         }
 
-        if (SteamVR_Input.__actions_default_in_touchpad.GetStateDown(Any) && number == dialogue.sentences.Length)
+        //Changed scene changing to right palm grip only to accomodate for Cosmos joystick not working with Vive controller trackpad
+        if (SteamVR_Input.__actions_default_in_GrabGrip.GetStateDown(Righty) && number == dialogue.sentences.Length)
         {
             sceneForward = true;
             if (sceneCounter == sceneReset)

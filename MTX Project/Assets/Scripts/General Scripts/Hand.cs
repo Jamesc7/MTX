@@ -67,6 +67,11 @@ namespace Valve.VR.InteractionSystem
 
         public SteamVR_Behaviour_Pose trackedObject;
 
+        /// Changed Section /////////////////////////////////////////////////////
+        /// ///////////////////////////////////////////////////////////////////////
+        /// </summary>///////////////////////////////////////////////////
+        /// 
+
         [SteamVR_DefaultAction("GrabPinch")]
         public SteamVR_Action_Boolean grabPinchAction;
 
@@ -81,6 +86,10 @@ namespace Valve.VR.InteractionSystem
 
         [SteamVR_DefaultAction("TouchPad")]
         public SteamVR_Action_Boolean touchpad;
+
+        /// <summary>/////////////////////////////////////////////////////
+        /// //////////////////////////////////////////////
+        /// </summary>
 
         public bool useHoverSphere = true;
         public Transform hoverSphereTransform;
@@ -744,6 +753,7 @@ namespace Valve.VR.InteractionSystem
         //-------------------------------------------------
         // Get the world velocity of the VR Hand.
         //-------------------------------------------------
+        /// Different??????
         public Vector3 GetTrackedObjectVelocity(float timeOffset = 0)
         {
             if (isActive)
@@ -957,10 +967,14 @@ namespace Valve.VR.InteractionSystem
 
         protected virtual bool CheckHoveringForTransform(Vector3 hoverPosition, float hoverRadius, ref float closestDistance, ref Interactable closestInteractable, Color debugColor)
         {
+            ////////////////////////////////////////////////////
+            ///////////////Raycast//////////////////////////////
+            ////////////////////////////////////////////////////
             Ray raycast = new Ray(transform.position, transform.TransformDirection(Vector3.forward) * 5);
             RaycastHit hitObject;
             bool rayHit = Physics.Raycast(raycast, out hitObject);
-
+            ////////////////////////////////////////////////////
+            ///
             bool foundCloser = false;
 
             // null out old vals
